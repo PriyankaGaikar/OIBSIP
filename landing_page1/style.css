@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #453e3b;
+}
+    
+
+header {
+    text-align: center;
+    background-color:#C1AEFC;
+    color: #fff;
+    padding: 60px 0;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/green-hills-in-tuscany-italy-royalty-free-image-1595419669.jpg?crop=1.00xw:0.667xh;0,0.0680xh&resize=980:*'); /* Replace 'container-background.jpg' with your image file */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 100px;
+    color: #f7712e;
+}
+
+
+header p {
+    margin: 0px 0 0;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-section {
+    background: url('https://thumbs.dreamstime.com/b/hotel-lobby-blur-background-wood-table-hotel-reception-lobby-blur-background-103112338.jpg') center/cover no-repeat; 
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-section h2,
+.about-section p {
+    color: #201f1f; /* Set text color to make it readable against the background */
+}
+
+.about-section a {
+    border: 2px solid #201f1f; /* Set border color to make it visible against the background */
+}
+
+/* ... (remaining styles) ... */
+
+
+.features-section {
+    background-color: #ECC5FB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    font-size: 50px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.6;
+    color: #393838;
+    font-size: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.features-section {
+    text-align: center;
+}
+
+.feature {
+    margin-top: 30px;
+    
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+footer {
+    background-color: #C1AEFC;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
